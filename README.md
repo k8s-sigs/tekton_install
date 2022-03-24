@@ -19,3 +19,7 @@ tkn task start hello --dry-run > taskRun-hello.yaml
 # create the TaskRun
 kubectl create -f taskRun-hello.yaml
 ```
+查看日志
+```
+tkn taskrun logs --last -f
+```
