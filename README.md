@@ -6,6 +6,8 @@ kubectl apply -f tekton_pipline.yaml
 安装dashboard
 ```
 kubectl apply -f tekton-dashboard.yaml
+
+curl http://ip:9097
 ```
 
 创建第一个task
