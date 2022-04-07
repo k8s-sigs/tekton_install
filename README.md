@@ -7,7 +7,7 @@ kubectl apply -f tekton_pipline.yaml
 ```
 kubectl apply -f tekton-dashboard.yaml
 
-curl http://ip:9097
+curl http://ip:9097 //默认端口 9097
 ```
 
 创建第一个task
